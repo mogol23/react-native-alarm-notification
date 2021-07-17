@@ -111,9 +111,9 @@ class AlarmUtil {
             }
         }
 
-        if (contain) {
-            Toast.makeText(mContext, "You have already set this Alarm", Toast.LENGTH_SHORT).show();
-        }
+//         if (contain) {
+//             Toast.makeText(mContext, "You have already set this Alarm", Toast.LENGTH_SHORT).show();
+//         }
 
         return contain;
     }
